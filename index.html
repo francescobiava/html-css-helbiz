@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/all.css">
   <link rel="stylesheet" href="lib/css/12bool.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Helbiz</title>
@@ -12,15 +13,33 @@
   <!-- header -->
   <header>
     <!-- navbar -->
-    <nav>
+    <nav class="head-navbar container">
       <!-- left -->
-      <div></div>
+      <div class="left col-lg-2 col-md-6 col-xs-6">
+        <a href=""><img src="assets/img/logo.svg" alt=""></a>
+      </div>
       <!-- right lg-->
-      <div></div>
-      <!-- right md-xs -->
-      <div>
-        <!-- menu -->
+      <div class="right-lg col-lg-8 col-lg-offset-2">
+        <ul>
+          <li><a href="">helbizgo</a></li>
+          <li><a href="">helbizbike</a></li>
+          <li><a href="">helbizair</a></li>
+          <li><a href="">about</a></li>
+          <li><a href="">shop</a></li>
+          <li class="language">
+            <a href="">eng</a>
+            <a href="">ita</a>
+            <a href="">es</a>
+          </li>
+        </ul>
 
+      </div>
+      <!-- right md-xs -->
+      <div class="right-md-xs col-md-6 col-xs-6">
+        <!-- menu -->
+        <div class="dropdown">
+          <i class="fas fa-bars"></i>
+        </div>
         <!-- dropdown -->
 
       </div>
