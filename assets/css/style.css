@@ -17,7 +17,6 @@ header {
 
 header li {
   list-style-type: none;
-  display: inline-block;
 }
 
 header a {
@@ -38,6 +37,10 @@ header a {
 
 .head-navbar .right-lg {
   text-align: right;
+}
+
+.head-navbar .right-lg li {
+  display: inline-block;
 }
 
 .head-navbar .right-lg a {
@@ -63,6 +66,31 @@ header a {
 .head-navbar .right-md-xs {
   text-align: right;
   display: none;
+}
+
+/* dropdown menu */
+.head-navbar .dropdown-content {
+  padding: 10px 10%;
+  width: 100%;
+  display: none;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+}
+
+.head-navbar .dropdown-content a {
+  display: block;
+  padding: 10px 5px;
+}
+
+.head-navbar .dropdown-content hr {
+  color: rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /* media screen per menu */
