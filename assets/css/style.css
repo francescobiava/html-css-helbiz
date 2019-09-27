@@ -12,7 +12,10 @@ body {
 
 /* header */
 header {
+  width: 100%;
   background-color: #fff;
+  position: fixed;
+  top: 0;
 }
 
 header li {
@@ -103,4 +106,9 @@ header a {
   .head-navbar .right-md-xs {
     display: block;
   }
+}
+
+/* main */
+main {
+  margin-top: 60.25px;
 }
