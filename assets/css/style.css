@@ -180,5 +180,52 @@ main {
   .content-section1 img {
     width: 100%;
   }
+}
 
+/* section2 */
+.section2 {
+  margin: 20px;
+  margin-top: 50px;
+}
+
+.section2 .content {
+  width: 48%;
+  background-color: #fafafa;
+  text-align: center;
+  float: left;
+}
+
+.section2 .left {
+  margin-right: 4%;
+}
+
+.section2 h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 25px;
+}
+
+.section2 p {
+  font-size: 1.2em;
+  margin: 15px;
+}
+
+.section2 span {
+  font-weight: 100;
+}
+
+.section2 a {
+  display: block;
+  text-decoration: none;
+  color: #0084ff;
+  margin-bottom: 20px;
+}
+
+.section2 a:hover {
+  text-decoration: underline;
+}
+
+.section2 img {
+  width: 40%;
 }
