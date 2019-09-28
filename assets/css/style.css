@@ -10,6 +10,9 @@ body {
   font-size: 16px;
 }
 
+li {
+  list-style-type: none;
+}
 
 .layer {
   width: 100%;
@@ -24,10 +27,6 @@ header {
   position: fixed;
   top: 0;
   z-index: 999;
-}
-
-header li {
-  list-style-type: none;
 }
 
 header a {
@@ -363,5 +362,58 @@ main {
     float: none;
     margin-bottom: 20px;
   }
+}
 
+/* section5 */
+.section5 {
+  margin: 50px 0;
+  height: 400px;
+  background-image: url(../img/social-banner.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.content-section5 {
+  width: 500px;
+  height: 200px;
+  background-color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 30px;
+}
+
+.content-section5 h2 {
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+.content-section5 li {
+  display: inline-block;
+}
+
+.content-section5 a {
+  font-size: 2em;
+  color: #000;
+  margin: 10px;
+}
+
+/* media query section5 */
+@media screen and (max-width: 767px) {
+
+  .content-section5 {
+    width: 60%;
+    height: 100px;
+    padding-top: 15px;
+  }
+
+  .content-section5 h2 {
+    font-size: 1.5em;
+  }
+
+  .content-section5 a {
+    font-size: 1em;
+  }
 }
