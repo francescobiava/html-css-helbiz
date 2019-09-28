@@ -242,9 +242,13 @@ main {
 }
 
 /* section4 */
+.section4 {
+  margin: 20px;
+}
+
 .section4 .box1 {
   height: 500px;
-  margin: 20px;
+  margin-bottom: 20px;
   background-image: url(../img/scooterhelbiz-2400.jpg);
   background-size: cover;
   position: relative;
@@ -265,6 +269,41 @@ main {
   padding: 80px;
   width: 50%;
   float: right;
+}
+
+.section4 .box2 {
+  width: 48%;
+  height: 500px;
+  float: left;
+  margin-right: 4%;
+  background-image: linear-gradient(#405569, #252f38);
+}
+
+.section4 .text-box2,
+.section4 .text-box3 {
+  height: 50%;
+  padding: 20px;
+}
+
+.section4 .text-box2 a {
+  margin: 10px;
+}
+
+.section4 .img-box2 {
+  display: block;
+  height: 50%;
+}
+
+.section4 .img-box2 img {
+  height: 100%;
+}
+
+.section4 .box3 {
+  width: 48%;
+  height: 500px;
+  float: left;
+  background-image: url(../img/cities-1500.jpg);
+  background-size: cover;
 }
 
 .section4 h2 {
@@ -314,5 +353,16 @@ main {
 
   .section4 h2 {
     font-size: 2em;
+  }
+
+  .section4 .box2,
+  .section4 .box3 {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  .section4 .img-box2 img {
+    padding-top: 50px;
   }
 }
